@@ -13,11 +13,11 @@ public abstract class BasePresenter <T extends BaseView, U extends BaseModel> {
         this.mView = mView;
     }
 
-    public T getmView(){
+    public T getView(){
         return mView;
     }
 
-    public U getmModel(){
+    public U getModel(){
         return mModel;
     }
 }

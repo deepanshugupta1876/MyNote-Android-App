@@ -6,15 +6,31 @@ package deepanshu.example.com.mynote.events;
 
 public class LoginEvent {
 
-    public static class OnLoginStarted{
+    public static class OnUserAlreadySignIn {
 
     }
 
-    public static class OnLoginFailed {
+    public static class OnGoogleSignInClicked {
 
     }
 
-    public static class OnLoginSuccess {
+    public static class OnGoogleSignInStarted {
 
+    }
+
+    public static class OnGoogleSignInFailed {
+        public String errorMessage;
+
+        public OnGoogleSignInFailed(String errorMessage) {
+            this.errorMessage = errorMessage;
+        }
+    }
+
+    public static class OnGoogleSignInSuccess {
+        public String successMessage;
+
+        public OnGoogleSignInSuccess(String successMessage) {
+            this.successMessage = successMessage;
+        }
     }
 }
