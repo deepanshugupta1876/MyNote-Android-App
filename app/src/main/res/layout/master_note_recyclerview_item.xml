@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider1"
+        android:layout_margin="15dp">
+
+
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/content_image"
+            android:layout_marginBottom="5dp"
+            android:maxLines="2"
+            android:text="dadsdsds s  ddad dasdsa dsdasdasddasdasd  fdfdf fdgdgddasd s ad dsd a ds ads a sd ad asdadass ad dasd asd dasd ad aadad ad dsd asd  asd dada"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:ellipsize="marquee"/>
+
+        <TextView
+            android:id="@+id/note_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note_title"
+            android:layout_toStartOf="@+id/content_image"
+            android:maxLines="3"
+            android:text="dadsdsds s  ddad dasdsa dsdasdasddasdasd  fdfdf fdgdgddasd s ad dsd a ds ads a sd ad asdadass ad dasd asd dasd ad aadad ad dsd asd  asd dada"
+            android:textSize="14sp"
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/content_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>

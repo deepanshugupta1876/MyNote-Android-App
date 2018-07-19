@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "deepanshu.example.com.mynote"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -34,8 +34,7 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-
-
+    implementation 'com.android.support:design:26.1.0'
 }
 
 

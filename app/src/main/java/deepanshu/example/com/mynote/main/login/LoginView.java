@@ -2,7 +2,6 @@ package deepanshu.example.com.mynote.main.login;
 
 import android.content.Intent;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.google.android.gms.common.SignInButton;
 import com.squareup.otto.Bus;
@@ -12,7 +11,7 @@ import butterknife.OnClick;
 import deepanshu.example.com.mynote.R;
 import deepanshu.example.com.mynote.base.BaseView;
 import deepanshu.example.com.mynote.events.LoginEvent;
-import deepanshu.example.com.mynote.main.my_note.MyNoteActivity;
+import deepanshu.example.com.mynote.main.my_note.MasterNoteActivity;
 
 /**
  * Created by Deepanshu on 11-07-2018.
@@ -31,7 +30,7 @@ class LoginView extends BaseView<LoginActivity> {
         LoginActivity activity = getActivity();
 
         if (activity != null) {
-            Intent loginIntent = new Intent(activity, MyNoteActivity.class);
+            Intent loginIntent = new Intent(activity, MasterNoteActivity.class);
             activity.startActivity(loginIntent);
         }
     }
