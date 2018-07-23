@@ -11,7 +11,7 @@ import butterknife.OnClick;
 import deepanshu.example.com.mynote.R;
 import deepanshu.example.com.mynote.base.BaseView;
 import deepanshu.example.com.mynote.events.LoginEvent;
-import deepanshu.example.com.mynote.main.my_note.MasterNoteActivity;
+import deepanshu.example.com.mynote.main.master_note_details.MasterNoteActivity;
 
 /**
  * Created by Deepanshu on 11-07-2018.
@@ -59,6 +59,4 @@ class LoginView extends BaseView<LoginActivity> {
     void onGoogleSignInClicked() {
         bus.post(new LoginEvent.OnGoogleSignInClicked());
     }
-
-
 }

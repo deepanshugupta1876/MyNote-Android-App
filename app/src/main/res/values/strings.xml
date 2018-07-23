@@ -2,8 +2,8 @@
     <string name="app_name">My Note</string>
     <string name="login.logoslogan">Your workspace for writing and collecting\neverything that matters</string>
     <string name="web_client_id">58737075265-k8s8or1lvn7vh94of3bfkl8cp4ruqodl.apps.googleusercontent.com</string>
-    <string name="master_note_date_time"><font fgcolor= '#fff'>%s </font></string>
-    <string name="master_note_note_size"><font fgcolor = '#0000FF'>| %s</font></string>
+    <string name="master_note_date_time">%s&#160;</string>
+    <string name="master_note_note_size">| %s&#160;</string>
     <string name="master_note_details">%s</string>
+    <string name="title_activity_masternote">All Notes</string>
 </resources>
-

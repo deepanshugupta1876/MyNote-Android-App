@@ -57,6 +57,4 @@ public class FirebaseApis {
     public DatabaseReference getMyUserReference() {
         return getUserReference(getAuthUserEmail());
     }
-
-
 }

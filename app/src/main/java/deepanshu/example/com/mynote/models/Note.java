@@ -6,7 +6,7 @@ import java.text.DateFormat;
  * Created by Deepanshu on 19-07-2018.
  */
 
-public class Notes {
+public class Note {
 
     private String noteTitle;
     private String dateTime;
@@ -14,7 +14,7 @@ public class Notes {
     private String note;
     private int image;
 
-    public Notes(String noteTitle, String dateTime, String noteSize, String note, int image) {
+    public Note(String noteTitle, String dateTime, String noteSize, String note, int image) {
         this.noteTitle = noteTitle;
         this.dateTime = dateTime;
         this.noteSize = noteSize;

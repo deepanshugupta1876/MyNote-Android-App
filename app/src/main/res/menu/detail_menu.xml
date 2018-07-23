@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/undo"
+        android:title="undo"
+        android:icon="@drawable/undo"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/redo"
+        android:title="redo"
+        android:icon="@drawable/redo"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menudrawer"
+        android:title="menudrawer"
+        app:showAsAction="never"/>
+</menu>
