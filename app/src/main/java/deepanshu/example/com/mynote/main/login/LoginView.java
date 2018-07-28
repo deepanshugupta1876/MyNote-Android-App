@@ -51,7 +51,6 @@ class LoginView extends BaseView<LoginActivity> {
         if (activity == null) {
             return;
         }
-
         Toast.makeText(activity.getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 
